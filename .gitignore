@@ -1,0 +1,28 @@
+# Variables de entorno y secretos locales
+.env
+.env.*
+!.env.example
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.temp
+
+# Datos locales de Docker/MySQL
+mysql-data/
+data/
+docker-data/
+
+# Respaldos generados localmente
+08_backups/*
+!08_backups/.gitkeep
+*.dump
+*.bak
